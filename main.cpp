@@ -34,7 +34,7 @@ int main()
 
         if(choice == 'r' && opchoice == 'p')
         {
-            cout << "\nYou lose, paper beats rock!";
+            cout << "\nYou chose rock\nOpponent chose paper\nYou Lose!";
             ++opscore;
         }
         else if(choice == 'r' && opchoice == 's')
